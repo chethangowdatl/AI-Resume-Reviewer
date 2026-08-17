@@ -1,0 +1,25 @@
+# Security & Environment secret files
+.env
+*.env
+server/.env
+server/.env.local
+
+# Node modules & dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Local databases & uploads
+server/data/
+server/uploads/
+
+# Production build outputs
+dist/
+client/dist/
+build/
+
+# OS / Editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
